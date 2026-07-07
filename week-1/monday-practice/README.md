@@ -1,0 +1,2 @@
+This is a simple Python project that processes a dataset of students and generates basic analytics and reports.
+The goal of this project is to practice Python fundamentals such as lists, dictionaries, functions, and basic data analysis.

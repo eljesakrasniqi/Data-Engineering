@@ -1,0 +1,42 @@
+# Daily Report - Day 2 Practice
+
+## Today I worked on:
+- Processing student data from CSV files using Python.
+- Creating functions for loading, cleaning, and analyzing data.
+- Building data quality and final student reports.
+
+## Completed tasks:
+- Loaded data from a CSV file and stored records in a structure that allows looping.
+- Checked missing values, invalid numeric values, and inconsistent text values.
+- Created a data quality report.
+- Cleaned student records using predefined rules.
+- Converted numeric fields and created the `total_score` field.
+- Added performance status and risk flag calculations.
+- Generated final reports and saved output files.
+- Created a README.md file for the project.
+
+## Not completed yet:
+- Improve the project structure by separating functions into different Python files.
+- Add more advanced data validation rules.
+- Some of the bonus tasks
+
+## Biggest difficulty:
+- Understanding how to organize the data processing flow and how to pass data between functions.
+- Managing cleaned data and generating reports in the correct order.
+
+## How I tried to solve it:
+- Broke the problem into smaller steps.
+- Created separate functions for each task.
+- Tested each function step by step.
+- Used Python dictionaries and lists to process student records.
+
+## What I understood better today:
+- How data pipelines work from raw data to cleaned and analyzed data.
+- How to read, transform, and write CSV files.
+- The importance of data quality checks before analysis.
+- How functions make code easier to reuse and maintain.
+
+## What I need to improve for the next session:
+- Practice writing cleaner and more structured Python code.
+- Learn more about working with larger datasets.
+- Improve my understanding of data engineering workflows.

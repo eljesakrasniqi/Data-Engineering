@@ -1,0 +1,21 @@
+Daily Report - Monday Practice
+
+Today I worked on:
+- Python lists and dictionaries
+- Filtering and sorting student data
+- Calculating attendance and homework score combinations
+
+Completed tasks:
+- Created students dataset
+- Calculated average attendance and homework scores
+- Grouped students by city and course
+- Sorted students by homework score
+- Found top students based on performance
+
+Biggest difficulty:
+- Understanding how to combine multiple conditions for ranking students correctly
+
+What I need to improve for Tuesday:
+- Practice more functions and reusable code
+- Improve speed in solving list/dictionary problems
+- Get better at writing clean and structured code
