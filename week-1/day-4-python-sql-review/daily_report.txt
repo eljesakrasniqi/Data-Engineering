@@ -1,0 +1,49 @@
+# Daily Report - Day 4 Practice
+
+## Today I worked on:
+- Practiced Python and SQL logic for data processing and analysis.
+- Worked with order datasets and compared how the same tasks can be solved using Python and SQL.
+- Reviewed filtering, sorting, aggregation, and basic data transformation concepts.
+
+## Python tasks completed:
+- Created an order dataset using a list of dictionaries.
+- Filtered orders based on their status (completed, pending, cancelled).
+- Calculated completed revenue by excluding pending and cancelled orders.
+- Counted orders by status.
+- Found customers with more than one order.
+- Practiced using loops, conditions, and dictionaries for data analysis.
+
+## SQL tasks completed:
+- Created and queried an orders table.
+- Selected specific columns and calculated total amounts.
+- Filtered completed orders using `WHERE`.
+- Sorted results using `ORDER BY`.
+- Used `LIMIT` to find the highest and most expensive orders.
+- Practiced finding business-ready completed orders and excluding cancelled or pending orders.
+
+## Comparison tasks completed:
+- Compared how data filtering and calculations are done in Python and SQL.
+- Understood that Python is useful for custom logic and data processing workflows, while SQL is powerful for querying and analyzing data stored in databases.
+- Compared different approaches for calculating revenue and counting records.
+
+## What I understood better today:
+- I understood better how data analysts and data engineers process raw data and transform it into useful information.
+- I learned how Python and SQL can work together in real data pipelines.
+- I improved my understanding of filtering, aggregation, and preparing business-ready data.
+
+## What was difficult:
+- Understanding when to use Python logic versus SQL queries.
+- Writing correct conditions for filtering data.
+- Making sure cancelled and pending orders were not included in revenue calculations.
+
+## What I need to practice more:
+- Writing more complex SQL queries.
+- Working with larger datasets.
+- Practicing data transformations using Python.
+- Learning more about database operations and data pipelines.
+
+## Did I use AI? If yes, how did I use it?
+Yes, I used AI as a learning assistant. I used it to understand errors, review my Python and SQL solutions, improve my explanations, and compare different ways of solving data processing tasks. AI helped me understand the concepts better instead of only providing answers.
+
+
+##I completed the SQL part of the tasks. For Python, I completed some parts but not all because there were concepts I was not fully familiar with. I wanted to learn and understand them better before applying them, so I will continue practicing these areas.
