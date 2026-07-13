@@ -1,0 +1,57 @@
+# Daily Report - Day 6 Practice
+Today I worked on:
+- Creating the SQL database with the `orders`, `customers`, and `products` tables.
+- Writing SQL queries for business reporting using aggregations, `GROUP BY`, `HAVING`, and `JOIN`.
+- Analyzing the results to understand business insights and preparing the required project files.
+
+SQL setup completed:
+- Created all three tables.
+- Inserted the provided dataset.
+- Added verification queries to confirm that the tables were created correctly.
+
+Aggregation tasks completed:
+- Used `COUNT()` to count total, completed, pending, and cancelled orders.
+- Used `SUM()` to calculate total quantities and completed revenue.
+- Used `AVG()`, `MIN()`, and `MAX()` to analyze product prices.
+
+GROUP BY tasks completed:
+- Created reports grouped by status, order date, customer, and product.
+- Calculated completed revenue by product.
+- Used `HAVING` to filter grouped results and sorted reports for better readability.
+
+JOIN tasks completed:
+- Joined `orders` with `customers`.
+- Joined `orders` with `products`.
+- Created a complete three-table JOIN report.
+- Generated business reports by customer, city, product, and category.
+
+Business report completed:
+- Summarized the SQL results.
+- Identified top-performing products, categories, customers, and cities.
+- Wrote business recommendations based on the reporting results.
+
+What I understood better today:
+- The difference between row-level queries and business reporting queries.
+- How `GROUP BY` summarizes data.
+- Why `JOIN` is necessary to combine information from multiple tables.
+- How to calculate business metrics such as completed revenue.
+
+What was difficult:
+- Writing more advanced `JOIN` queries.
+- Understanding when to use `WHERE` versus `HAVING`.
+- Calculating revenue correctly by excluding pending and cancelled orders.
+
+What I need to practice more:
+- Complex `JOIN` queries involving multiple tables.
+- Writing more advanced business reports.
+- Using `GROUP BY` and `HAVING` confidently in different scenarios.
+
+-Did I use AI? If yes, how did I use it?
+Yes. I used AI to clarify SQL concepts, review my queries, and improve the documentation. I tested and understood the SQL before using it.
+
+-What can I explain live without help:
+- How the database was created.
+- How aggregation functions work.
+- The purpose of `GROUP BY`, `HAVING`, and `JOIN`.
+- How completed revenue is calculated.
+- The business meaning of the SQL reports I created.
