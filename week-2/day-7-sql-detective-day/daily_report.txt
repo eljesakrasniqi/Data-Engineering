@@ -1,0 +1,55 @@
+Daily Report - Day 7 Practice
+
+Today I worked on:
+- Set up the SQL database using setup.sql.
+- Inspected the customers, products, and orders tables.
+- Fixed broken SQL queries.
+- Created validation queries to verify business metrics.
+- Prepared a verified business report based on SQL results.
+
+Broken queries I fixed:
+- Corrected missing JOIN conditions.
+- Fixed incorrect GROUP BY usage.
+- Added missing commas and SQL syntax.
+- Corrected queries that used the wrong table or columns.
+- Fixed revenue calculations to include only completed orders.
+
+Validation queries I completed:
+- Counted all orders.
+- Counted completed, pending, and cancelled orders.
+- Counted customers and products.
+- Calculated completed revenue.
+- Calculated revenue by product and category.
+- Counted orders by city.
+- Identified customers with multiple orders.
+- Found the top 3 completed orders.
+- Identified orders that should not count as revenue.
+- Determined the category with the highest completed revenue.
+- Determined the city with the highest order activity.
+
+Business numbers I verified:
+- Total number of orders.
+- Number of completed orders.
+- Total completed revenue.
+- Revenue by product.
+- Revenue by category.
+- Orders by city.
+- Customers with multiple orders.
+
+What SQL mistake I understand better now:
+- I now better understand how JOIN connects related tables, why GROUP BY is required for aggregated results, and why only completed orders should be included in revenue calculations.
+
+What was difficult:
+- Identifying missing JOIN conditions and determining which table contained the required columns for each query.
+
+What I need to practice more:
+- More complex JOIN queries.
+- GROUP BY and HAVING.
+- Business reporting using SQL.
+- Query validation and debugging techniques.
+
+Did I use AI? If yes, how did I use it?
+- No. I completed the SQL debugging, validation, and business report using my own reasoning, SQLiteOnline error messages, and my own notes, following the Day 7 practice rules.
+
+Can I explain my fixed queries live?
+- Yes. I can explain the mistakes, the corrections, and how the validation queries prove each business result.
