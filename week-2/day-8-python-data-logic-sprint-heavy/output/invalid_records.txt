@@ -1,0 +1,10 @@
+Invalid Records
+
+Order ID: 8
+Reason: Empty customer name
+
+Order ID: 11
+Reason: Invalid quantity (0)
+
+Order ID: 15
+Reason: Invalid price (-20)

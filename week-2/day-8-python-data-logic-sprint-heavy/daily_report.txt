@@ -1,0 +1,63 @@
+Daily Report - Day 8 Practice
+
+Today I worked on:
+
+- Created the required project folder structure.
+- Imported the raw dataset into the Python analysis script.
+- Built validation, normalization, and business reporting logic.
+- Generated all required output files automatically.
+
+Python tasks completed:
+
+- Worked with lists and dictionaries.
+- Created reusable functions.
+- Used loops and conditional statements.
+- Calculated total amounts and business metrics.
+- Sorted data to generate top reports.
+- Wrote reports to text files.
+
+Validation logic completed:
+
+- Detected orders with empty customer names.
+- Detected invalid quantities (0 or negative).
+- Detected invalid prices (0 or negative).
+- Separated valid and invalid records.
+- Stored invalid records with reasons.
+
+Cleaning/normalization completed:
+
+- Normalized status values.
+- Normalized city names.
+- Normalized category names.
+- Normalized channel names.
+- Added the total_amount field to cleaned orders.
+
+Reports generated:
+
+- validation_report.txt
+- invalid_records.txt
+- business_report.txt
+
+What was difficult:
+
+- Creating reusable functions without repeating code.
+- Ensuring that only valid completed orders were included in revenue calculations.
+- Keeping the raw dataset unchanged while generating cleaned records.
+
+What I understood better today:
+
+- The importance of validating data before analysis.
+- How data normalization improves consistency.
+- How business metrics depend on clean and accurate data.
+- How functions make Python code more organized and reusable.
+
+What I need to practice more:
+
+- Dictionary-based reporting.
+- Sorting large datasets.
+- Writing cleaner reusable functions.
+- File handling in Python.
+
+Did I use AI? If yes, how did I use it?
+
+- Yes. I used a bit AI to better understand the practice requirements, review my Python logic, and improve the explanations and documentation. I wrote, tested, and understood the final solution myself.

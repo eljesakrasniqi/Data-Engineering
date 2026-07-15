@@ -1,0 +1,24 @@
+print("\n DATA QUALITY INVESTIGATION\n")
+
+print("1. Which invalid records were removed and why?")
+for order in invalid_orders:
+    print(f"Order ID {order['order_id']} - {', '.join(order['reasons'])}")
+
+print(f"\n2. Valid non-revenue orders: {len(non_revenue_orders)}")
+
+print("\n3. Status values before normalization:")
+print(raw_statuses)
+
+print("\nStatus values after normalization:")
+print(clean_statuses)
+
+print("\n4. Values changed during normalization:")
+print("City: Prishtine -> Prishtina")
+print("Category: accessories -> Accessories")
+print("Channel: Online -> online")
+
+print("\n5. Why validate before revenue calculation?")
+print("Invalid records would produce incorrect revenue and unreliable reports.")
+
+print("\n6. Why only completed orders count as revenue?")
+print("Pending, cancelled and returned orders are not real sales and must not be included.")
