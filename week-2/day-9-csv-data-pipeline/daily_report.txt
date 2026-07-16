@@ -1,0 +1,46 @@
+# Daily Report - Day 9 Practice
+
+## Today I worked on:
+
+* Built a Python CSV data pipeline.
+* Loaded raw CSV files using `csv.DictReader`.
+* Created lookup tables for customers and products.
+* Implemented data validation and normalization rules.
+* Enriched valid orders with customer and product information.
+* Generated clean output files and business reports.
+
+## Pipeline parts completed:
+
+* CSV file loading
+* Lookup table creation
+* Data validation
+* Data normalization
+* Order enrichment
+* Clean and invalid CSV generation
+* Data Quality Report
+* Business Summary Report
+
+## Most difficult part:
+
+* Implementing the validation logic and handling different invalid data scenarios while keeping the pipeline organized.
+
+## One bug/error I fixed:
+
+* Fixed an issue where invalid records were not being assigned the correct validation reason before being written to `invalid_orders.csv`.
+
+## What I understood better about Bronze/Silver/Gold:
+
+* The Bronze layer stores raw data exactly as received.
+* The Silver layer contains cleaned, validated, and enriched data.
+* The Gold layer provides trusted business reports and metrics generated from the clean data.
+
+## What I need to practice more:
+
+* Building larger data pipelines.
+* Improving validation logic.
+* Working with more complex data transformations.
+* Preparing for Databricks and Delta Lake workflows.
+
+## Did I use AI? If yes, how did I use it?
+
+* Yes. I used AI to better understand the project requirements, review my pipeline logic, and improve the README and documentation. All code was written, tested, and understood before submission.
