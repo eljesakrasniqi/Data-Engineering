@@ -1,0 +1,56 @@
+Daily Report - Day 10 Practice
+
+Today I worked on:
+
+- Built a complete Bronze, Silver, and Gold data pipeline using Python.
+- Processed raw CSV files and generated clean, business-ready outputs.
+- Created validation, reporting, and logging files for the pipeline.
+
+Bronze tasks completed:
+
+- Loaded raw CSV files from the Bronze layer.
+- Kept the original data unchanged.
+- Verified the number of records in each source file.
+- Documented the purpose of the Bronze layer.
+
+Silver tasks completed:
+
+- Cleaned customer, product, and order data.
+- Normalized statuses, cities, and sales channels.
+- Validated customer IDs, product IDs, dates, quantities, and prices.
+- Separated invalid records into invalid_orders.csv.
+- Enriched valid orders with customer and product information.
+
+Gold tasks completed:
+
+- Generated revenue reports by category, city, customer, and product.
+- Created an executive summary with key business metrics.
+- Produced business-ready reports from validated Silver data only.
+
+What I understood better today:
+
+- How the Bronze, Silver, and Gold architecture works.
+- Why raw data should never be modified.
+- How data validation improves report accuracy.
+- How business reports are generated from clean data.
+
+What was difficult:
+
+- Implementing all validation rules correctly.
+- Connecting customer and product data with orders.
+- Keeping the pipeline organized using multiple reusable functions.
+
+One result I can explain and defend:
+
+- I can explain why only validated Silver data is used to create Gold reports and how this ensures accurate and trustworthy business insights.
+
+What I need to practice more:
+
+- Writing more advanced Python functions.
+- Improving validation logic.
+- Building larger data pipelines.
+- Creating additional business reports and analytics.
+
+Did I use AI? If yes, how did I use it?
+
+- Yes. I used AI to better understand the project requirements, improve the README and documentation, clarify the Bronze/Silver/Gold architecture, and receive guidance while developing the Python pipeline. I wrote and understood the final solution myself.

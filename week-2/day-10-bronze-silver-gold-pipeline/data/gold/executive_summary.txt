@@ -1,0 +1,19 @@
+
+Executive Summary - Day 10 Pipeline
+
+Total raw orders: 31
+
+Valid silver orders: 23
+
+Invalid orders: 8
+
+Completed orders: 15
+
+Pending orders: 3
+
+Cancelled orders: 4
+
+Completed revenue: 3189.0
+
+Business recommendation:
+Focus on improving sales performance and fixing data quality issues.
