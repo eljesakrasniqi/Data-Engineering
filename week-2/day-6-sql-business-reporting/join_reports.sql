@@ -128,4 +128,4 @@ FROM orders
 JOIN customers ON orders.customer_id = customers.customer_id
 JOIN products ON orders.product_id = products.product_id
 WHERE orders.status IN ('pending', 'cancelled')
-ORDER BY potential_amount DESC;
+ORDER BY potential_amount DESC;  
