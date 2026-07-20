@@ -1,0 +1,48 @@
+Daily Report - Day 11 Practice
+
+Today I worked on:
+- Built a complete Python and SQL data pipeline.
+- Processed Bronze data into Silver and Gold datasets.
+- Created SQL reports and completed the project documentation.
+
+Bronze tasks completed:
+- Created and inspected the raw CSV files.
+- Identified missing, invalid, and inconsistent data.
+- Reviewed the data structure before processing.
+
+Silver tasks completed:
+- Validated all order records.
+- Normalized status, city, and channel values.
+- Joined orders with customer and product data.
+- Generated orders_clean.csv and invalid_orders.csv.
+
+Gold tasks completed:
+- Generated revenue_by_city.csv.
+- Generated revenue_by_category.csv.
+- Generated top_customers.csv.
+- Created executive_summary.txt.
+- Prepared SQL reports using the clean data.
+
+What I understood better today:
+- The purpose of Bronze, Silver, and Gold layers.
+- How data validation improves data quality.
+- How Python prepares clean data and SQL analyzes it.
+- The importance of using trusted data for business reporting.
+
+What was difficult:
+- Applying all validation rules correctly.
+- Separating valid and invalid records.
+- Making sure the generated reports only used clean data.
+
+One result I can explain and defend:
+- I can explain why only completed and valid orders are included in completed revenue and why invalid, pending, or cancelled orders are excluded from business reports.
+
+What I need to practice more:
+- Python functions.
+- Data validation.
+- CSV processing.
+- SQL GROUP BY and aggregation.
+- Building larger ETL pipelines.
+
+Did I use AI? If yes, how did I use it?
+- Yes. I used AI to better understand the project requirements, review my validation logic, improve the README documentation, and verify my SQL queries. The implementation, testing, and understanding of the project were completed by me.
