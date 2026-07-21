@@ -1,0 +1,95 @@
+Daily Report - Day 12 Practice
+
+Today I worked on:
+
+* Building a relational database with customers, products, orders, and order_items tables.
+* Understanding how tables are connected through relationships.
+* Using PRIMARY KEY and AUTOINCREMENT for unique identifiers.
+* Creating FOREIGN KEY relationships between related tables.
+* Using NOT NULL and CHECK constraints to protect data quality.
+* Testing valid and invalid data inserts.
+
+Database schema completed:
+
+* Created the customers table with an AUTOINCREMENT primary key.
+* Created the products table with a price CHECK constraint.
+* Created the orders table with a foreign key connected to customers.
+* Created the order_items table with foreign keys connected to orders and products.
+* Used DROP TABLE IF EXISTS in the correct order before recreating tables.
+* Enabled foreign key checks using PRAGMA foreign_keys = ON.
+
+Relationship concepts completed:
+
+* One customer can have many orders.
+* One order can contain many products.
+* One product can appear in many different orders.
+* The order_items table works as a bridge table between orders and products.
+* Foreign keys help maintain referential integrity and prevent invalid relationships.
+
+Testing completed:
+
+* Tested an order with a customer_id that does not exist.
+* Tested an order_item with an invalid order_id.
+* Tested an order_item with an invalid product_id.
+* Tested products with invalid prices such as 0 or negative values.
+* Tested order_items with a quantity of 0.
+* Tested invalid order statuses.
+
+JOIN tasks completed:
+
+* Used INNER JOIN to combine customers, orders, order_items, and products.
+* Created multi-table JOIN queries.
+* Displayed customer, order, and product information together.
+* Calculated total_amount using quantity multiplied by price.
+* Filtered joined results to show only completed orders.
+* Used LEFT JOIN to include customers or products even when they had no related records.
+
+Business reports completed:
+
+* Calculated completed revenue by city.
+* Calculated completed revenue by product category.
+* Found the top customers by completed revenue.
+* Found the top products by completed revenue.
+* Counted orders for each customer.
+* Counted items for each order.
+* Found customers with more than one order.
+* Found products sold more than once.
+* Confirmed that pending and cancelled orders are excluded from completed revenue.
+
+What I understood better today:
+
+* A primary key uniquely identifies each record in a table.
+* A foreign key connects records between related tables.
+* AUTOINCREMENT allows the database to generate unique IDs automatically.
+* Relationships prevent duplicated and messy data.
+* The order_items table is necessary to represent the many-to-many relationship between orders and products.
+* INNER JOIN returns matching records from related tables.
+* LEFT JOIN keeps all records from the left table, even when there is no match.
+* Referential integrity protects the database from invalid relationships.
+* Business reports become more accurate when data is stored in separate, well-connected tables.
+
+What was difficult:
+
+* Understanding how multiple foreign keys work together.
+* Understanding the many-to-many relationship between orders and products.
+* Writing multi-table JOIN queries correctly.
+* Remembering when to use INNER JOIN and when to use LEFT JOIN.
+* Testing invalid data while understanding why the database rejects it.
+
+What I need to practice more:
+
+* Writing more complex multi-table JOIN queries.
+* Understanding LEFT JOIN results more deeply.
+* Designing database relationships before writing SQL.
+* Writing more advanced business reports with GROUP BY and aggregation.
+* Practicing foreign key and constraint error handling.
+
+Did I use AI? If yes, how did I use it?
+
+* Yes. I used AI to clarify SQL concepts such as primary keys, foreign keys, AUTOINCREMENT, referential integrity, and JOINs.
+* I used AI to help understand errors and improve my SQL logic.
+* I reviewed and tested the SQL myself to make sure I understood how the database and relationships worked.
+
+Final reflection:
+
+Today I learned that a professional relational database is not just about storing data. The structure of the database is important because relationships, keys, and constraints help protect data quality. I now understand better how separate tables can be connected and used to create reliable business reports. I also learned that testing invalid data is important because it proves that the database rules are actually working.
