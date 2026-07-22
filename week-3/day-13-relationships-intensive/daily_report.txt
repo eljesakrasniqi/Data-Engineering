@@ -1,0 +1,32 @@
+Day 13 - Daily Report
+
+Today's work focused on database relationships, foreign keys, and SQL reporting.
+
+Completed tasks:
+- Designed the database model.
+- Created the schema.sql file with seven related tables.
+- Added primary keys, foreign keys, UNIQUE, NOT NULL, and CHECK constraints.
+- Inserted realistic seed data for students, instructors, courses, enrollments, attendance, assignments, and submissions.
+- Tested database constraints using invalid inserts.
+- Created JOIN reports using INNER JOIN and LEFT JOIN.
+- Built manager reports to answer business questions.
+- Documented database design and SQL concepts in answers.md and README.md.
+
+Key concepts learned:
+- Primary Keys
+- Foreign Keys
+- One-to-many relationships
+- Many-to-many relationships
+- Bridge tables
+- INNER JOIN vs LEFT JOIN
+- Aggregate functions (COUNT, AVG)
+- Data integrity using constraints
+
+Challenges:
+- Fixed foreign key errors.
+- Corrected JOIN syntax mistakes.
+- Resolved UNIQUE and CHECK constraint issues.
+- Verified that seed data matched foreign key relationships.
+
+Outcome:
+The database now supports realistic training management data, protects data quality with constraints, and generates useful business reports using SQL JOINs.
