@@ -1,0 +1,86 @@
+Day 14 - Daily Report
+
+Today's goal was to design and build a complete relational database for a training center using SQLite. The project focused on creating a well-structured database that supports students, programs, instructors, enrollments, attendance, and payments while allowing management to generate business reports and perform data quality checks.
+
+Tasks Completed:
+- Planned the database structure before writing SQL.
+- Created the database schema with six related tables:
+  - students
+  - programs
+  - instructors
+  - enrollments
+  - attendance
+  - payments
+- Defined primary keys for every table.
+- Added foreign keys to create relationships between tables.
+- Applied database constraints including:
+  - PRIMARY KEY
+  - FOREIGN KEY
+  - NOT NULL
+  - UNIQUE
+  - CHECK
+- Inserted realistic sample data into every table.
+- Added students from different cities.
+- Added multiple programs and instructors.
+- Created enrollments with active, completed, and dropped statuses.
+- Added attendance records with both attended and missed sessions.
+- Added payment records with paid, unpaid, and partial payment statuses.
+- Tested foreign key relationships and validation rules.
+- Created JOIN reports to combine information from multiple tables.
+- Created aggregation reports using COUNT, SUM, AVG, GROUP BY, ORDER BY, and LIMIT.
+- Created HAVING reports to filter grouped results.
+- Performed data quality checks using LEFT JOIN to identify missing or inconsistent data.
+- Wrote business insights based on the generated reports.
+- Completed project documentation including README and database design explanation.
+
+Reports Created:
+- Student, program, and instructor reports.
+- Active, completed, and dropped enrollment reports.
+- Attendance reports.
+- Payment reports.
+- Student counts by city.
+- Enrollment counts by status and program.
+- Revenue reports by city and program.
+- Attendance rate reports by student and program.
+- Top students by attendance.
+- Top programs by revenue.
+- Instructor workload reports.
+- Data quality reports for missing enrollments, payments, attendance, and other inconsistencies.
+
+Data Quality Checks Performed:
+- Students without enrollments.
+- Programs without enrollments.
+- Enrollments without payment records.
+- Enrollments without attendance records.
+- Active students with unpaid or partial payments.
+- Students with low attendance but paid payments.
+- Students with high attendance but unpaid or partial payments.
+- Dropped students with payment records.
+- Instructors without active students.
+- Additional checks for incomplete or inconsistent records.
+
+Skills Practiced:
+- Relational Database Design
+- Primary Keys
+- Foreign Keys
+- One-to-Many Relationships
+- SQL Constraints
+- SQLite
+- INNER JOIN
+- LEFT JOIN
+- Aggregate Functions
+- GROUP BY
+- HAVING
+- Business Reporting
+- Data Quality Validation
+- Database Documentation
+
+Challenges:
+- Designing the correct relationships between tables.
+- Creating realistic test data that satisfies all business rules.
+- Building queries that combine data from multiple related tables.
+- Calculating attendance rates from attendance records.
+- Creating reports that support business decision-making.
+
+Outcome:
+The database successfully supports student management, program management, attendance tracking, payment tracking, business reporting, and data quality validation. All required SQL files, reports, and documentation were completed successfully.
