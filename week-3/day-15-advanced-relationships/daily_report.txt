@@ -1,0 +1,107 @@
+Unity Tech Hub x Agilyti - Day 15 Practice
+Daily Report
+
+Project: SaaS Subscription Database
+
+
+1. Work Completed
+
+Today I designed and completed a relational database model for a SaaS subscription system.
+
+I created tables for:
+- Companies
+- Users
+- Plans
+- Subscriptions
+- Payments
+- Support Tickets
+
+I added relationships between tables using primary keys and foreign keys.
+
+
+2. Database Relationships
+
+The main relationships created were:
+
+- One company can have many users.
+- One company can have many subscriptions.
+- One plan can be used by many subscriptions.
+- One subscription can have many payments.
+- One user can create many support tickets.
+
+
+3. SQL Queries Created
+
+I created relationship queries to test that the database connections work correctly.
+
+Examples:
+- Users with company information.
+- Subscriptions with company and plan details.
+- Payments with company, plan, and subscription status.
+- Support tickets with user and company details.
+- Companies without users.
+- Subscriptions without payments.
+
+
+4. Business Reports Created
+
+I created manager-focused reports including:
+
+- Total paid revenue.
+- Revenue by company.
+- Revenue by subscription plan.
+- Active subscriptions by plan.
+- Number of users by company.
+- Support tickets by company.
+- Open tickets by priority.
+- Top companies by revenue.
+- Average payment amount by plan.
+- Executive summary report.
+
+
+5. Database Validation
+
+I tested the database using constraints.
+
+The database prevents:
+- Duplicate IDs.
+- Invalid foreign key relationships.
+- Missing required values.
+- Invalid status values.
+
+
+6. Skills Practiced
+
+Today I practiced:
+
+- Relational database design.
+- Primary keys and foreign keys.
+- INNER JOIN and LEFT JOIN.
+- GROUP BY and aggregate functions.
+- Creating business reports from database data.
+
+
+7. Challenges
+
+The main challenge was understanding how different tables connect and choosing the correct JOIN type for each report.
+
+I improved my understanding of how database relationships affect query results.
+
+
+8. What I Can Explain
+
+I can explain:
+- The purpose of each table.
+- How relationships work.
+- Why foreign keys are important.
+- How SQL queries generate business insights.
+- How reports help managers make decisions.
+
+
+9. Next Steps
+
+Next steps would be:
+- Add more realistic data.
+- Create more advanced reports.
+- Improve database optimization.
+- Add indexes for better performance.
